@@ -22,3 +22,5 @@ const submitData = (name, email) => {
         body.innerHTML = error.message
     } )
 }
+
+submitData("Steve", "steve@gmail.com")
